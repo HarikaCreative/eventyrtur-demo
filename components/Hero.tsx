@@ -8,12 +8,12 @@ export default function Hero({ language }: HeroProps) {
   const content = {
     en: {
       title: 'Step Into Norwegian Fairytales',
-      subtitle: 'Experience magical adventures through ancient forests, mystical mountains, and enchanted fjords',
-      cta: 'Explore Adventures'
+      subtitle: 'Experience the magic of storytelling and fairytales around a bonfire deep in the Noregian forest',
+      cta: 'Explore the tales'
     },
     no: {
       title: 'Tre Inn i Norske Eventyr',
-      subtitle: 'Opplev magiske eventyr gjennom eldgamle skoger, mystiske fjell og fortryllede fjorder',
+      subtitle: 'Opplev eventyrenes magi rundt bål dypt inn i skogen - historiefortelling og fantasi hånd i hånd',
       cta: 'Utforsk Eventyr'
     }
   };
@@ -26,7 +26,8 @@ export default function Hero({ language }: HeroProps) {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url(https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&q=80)',
+          backgroundImage: "url('/public/soft-wintersun-fairytalewalk.jpg')"
+
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-b from-slate-900/70 via-emerald-900/50 to-slate-900/70" />
