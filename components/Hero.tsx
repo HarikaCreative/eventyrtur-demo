@@ -26,7 +26,7 @@ export default function Hero({ language }: HeroProps) {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url('/public/soft-wintersun-fairytalewalk.jpg')"
+          backgroundImage: "url('public/soft-wintersun-fairytalewalk.webp')"
 
         }}
       >
