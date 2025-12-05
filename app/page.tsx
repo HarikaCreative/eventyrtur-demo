@@ -20,7 +20,7 @@ export default function HomePage() {
   const translations = {
     en: {
       nav: {
-        adventures: 'Adventures',
+        fairytales: 'Fairy-tales',
         places: 'Places',
         seasons: 'Seasons',
         booking: 'Booking',
@@ -72,24 +72,17 @@ export default function HomePage() {
               </a>
 
               {/* Language Toggle */}
-              <button
+             {/* Language Toggle – vises på alle skjermstørrelser */}
+              <div className="flex items-center space-x-2">
+               <button
                 onClick={toggleLanguage}
-                className="px-4 py-2 rounded-full bg-gradient-to-r from-emerald-500 to-blue-500 text-white font-medium hover:from-emerald-600 hover:to-blue-600 transition-all shadow-md hover:shadow-lg"
+                className="px-3 py-2 rounded-full bg-gradient-to-r from-emerald-500 to-blue-500 text-white text-xl hover:from-emerald-600 hover:to-blue-600 transition-all shadow-md hover:shadow-lg"
                 aria-label={language === 'en' ? 'Switch to Norwegian' : 'Bytt til engelsk'}
-              >
-                {language === 'en' ? '🇳🇴 NO' : '🇬🇧 EN'}
-              </button>
-            </div>
-
-            {/* Mobile Menu Button */}
-            <div className="md:hidden">
-              <button
-                onClick={toggleLanguage}
-                className="px-3 py-1.5 rounded-full bg-gradient-to-r from-emerald-500 to-blue-500 text-white text-sm font-medium"
-                aria-label={language === 'en' ? 'Switch to Norwegian' : 'Bytt til engelsk'}
-              >
+                >
                 {language === 'en' ? '🇳🇴' : '🇬🇧'}
-              </button>
+                </button>
+              </div>
+
             </div>
           </div>
         </div>
