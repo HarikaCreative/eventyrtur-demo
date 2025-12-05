@@ -7,8 +7,8 @@ interface HeroProps {
 export default function Hero({ language }: HeroProps) {
   const content = {
     en: {
-      title: 'Step Into Norwegian Fairytales',
-      subtitle: 'Experience the magic of storytelling and fairytales around a bonfire deep in the Noregian forest',
+      title: 'Step Into Norwegian Fairy-tales',
+      subtitle: 'Experience the magic of storytelling and fairy-tales around a bonfire deep in the Norwegian forest',
       cta: 'Explore the tales'
     },
     no: {
