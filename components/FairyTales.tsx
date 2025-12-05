@@ -13,26 +13,26 @@ export default function FairyTales({ language }: FairyTalesProps) {
         {
           title: 'Three Billy Goats Gruff',
           excerpt: 'Once upon a time, three billy goats needed to cross a bridge to reach the lush grass on the other side. But under the bridge lived a fearsome troll...',
-          location: 'Mountain Valleys',
+          location: 'Frognerseteren',
           duration: '3 hours'
         },
         {
           title: 'East of the Sun, West of the Moon',
-          excerpt: 'A poor farmer's daughter meets a great white bear who promises riches if she comes to live with him in his castle. But she must never see his true form...',
+          excerpt: 'A poor farmer\'s daughter meets a great white bear who promises riches if she comes to live with him in his castle. But she must never see his true form...',
           location: 'Enchanted Forests',
           duration: '5 hours'
         },
         {
           title: 'The Princess and the Trolls',
           excerpt: 'Deep in the mountain halls, trolls guard ancient treasures. Only the bravest can venture into their realm and return with tales of wonder...',
-          location: 'Mountain Caves',
+          location: 'Look for a cave',
           duration: '4 hours'
         }
       ]
     },
     no: {
       title: 'Klassiske Norske Eventyr',
-      subtitle: 'Oppdag historiene som har fortryllet generasjoner',
+      subtitle: 'Oppdag fortellinger som er overført gjennom generasjoner til lyttende barneører',
       tales: [
         {
           title: 'De Tre Bukkene Bruse',
