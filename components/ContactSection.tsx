@@ -14,7 +14,7 @@ export default function ContactSection({ language }: ContactSectionProps) {
   const content = {
     en: {
       title: 'Start Your Adventure',
-      subtitle: 'Have questions? We\'re here to help you plan your perfect Norwegian fairytale experience',
+      subtitle: 'Have questions? We\'re here to help you plan your perfect Norwegian fairytale walk',
       form: {
         name: 'Your Name',
         email: 'Email Address',
@@ -29,12 +29,12 @@ export default function ContactSection({ language }: ContactSectionProps) {
         email: 'Email',
         phone: 'Phone',
         location: 'Location',
-        locationText: 'Norwegian Fjords & Mountains'
+        locationText: 'Deep in the Oslo forest'
       }
     },
     no: {
       title: 'Start Ditt Eventyr',
-      subtitle: 'Har du spørsmål? Vi er her for å hjelpe deg planlegge din perfekte norske eventyropplevelse',
+      subtitle: 'Har du spørsmål? Vi er her for å hjelpe deg planlegge din perfekte norske eventyrtur',
       form: {
         name: 'Ditt Navn',
         email: 'E-postadresse',
@@ -49,7 +49,7 @@ export default function ContactSection({ language }: ContactSectionProps) {
         email: 'E-post',
         phone: 'Telefon',
         location: 'Lokasjon',
-        locationText: 'Norske Fjorder & Fjell'
+        locationText: 'Dypt inne i Nordmarka'
       }
     }
   };
